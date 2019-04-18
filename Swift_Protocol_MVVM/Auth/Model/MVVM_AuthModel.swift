@@ -18,7 +18,7 @@ class MVVM_AuthModel: AuthModel {
                 DispatchQueue.main.async {
                     let currentVC: UIViewController? = self.getVC(app: UIApplication.shared)
                     let success: MVVMCListViewController = MVVMCListViewController()
-                    currentVC?.present(success, animated: true, completion: {
+                    currentVC?.navigationController?.present(success, animated: true, completion: {
                         print("成功了")
                     })
                 }

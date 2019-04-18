@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BA704CA22685B36008F5EF4 /* MVVMCItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA704C922685B36008F5EF4 /* MVVMCItemTableViewCell.swift */; };
 		7BC13FF522602B920087CF28 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC13FF422602B920087CF28 /* AuthViewModel.swift */; };
 		7BC13FF722602BC10087CF28 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC13FF622602BC10087CF28 /* AuthModel.swift */; };
 		7BC13FF922602FCC0087CF28 /* MVVM_AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC13FF822602FCC0087CF28 /* MVVM_AuthViewModel.swift */; };
@@ -19,7 +20,6 @@
 		7BC1401B2260941C0087CF28 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1401A2260941B0087CF28 /* ListViewModel.swift */; };
 		7BC1401D226094270087CF28 /* MVVMCListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1401C226094270087CF28 /* MVVMCListViewModel.swift */; };
 		7BC1401F226094E70087CF28 /* MVVMCListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1401E226094E70087CF28 /* MVVMCListViewController.swift */; };
-		7BC14021226095490087CF28 /* MVVMCItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC14020226095490087CF28 /* MVVMCItemTableViewCell.swift */; };
 		7BDDFB43225F4B2C00154F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDDFB42225F4B2C00154F58 /* AppDelegate.swift */; };
 		7BDDFB48225F4B2C00154F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDDFB46225F4B2C00154F58 /* Main.storyboard */; };
 		7BDDFB4A225F4B2F00154F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDDFB49225F4B2F00154F58 /* Assets.xcassets */; };
@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BA704C922685B36008F5EF4 /* MVVMCItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMCItemTableViewCell.swift; sourceTree = "<group>"; };
 		7BC13FF422602B920087CF28 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		7BC13FF622602BC10087CF28 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		7BC13FF822602FCC0087CF28 /* MVVM_AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_AuthViewModel.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		7BC1401A2260941B0087CF28 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		7BC1401C226094270087CF28 /* MVVMCListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMCListViewModel.swift; sourceTree = "<group>"; };
 		7BC1401E226094E70087CF28 /* MVVMCListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMCListViewController.swift; sourceTree = "<group>"; };
-		7BC14020226095490087CF28 /* MVVMCItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMCItemTableViewCell.swift; sourceTree = "<group>"; };
 		7BDDFB3F225F4B2C00154F58 /* Swift_Protocol_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Protocol_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDDFB42225F4B2C00154F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BDDFB47225F4B2C00154F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				7BC1401E226094E70087CF28 /* MVVMCListViewController.swift */,
-				7BC14020226095490087CF28 /* MVVMCItemTableViewCell.swift */,
+				7BA704C922685B36008F5EF4 /* MVVMCItemTableViewCell.swift */,
 			);
 			path = "View:Controller";
 			sourceTree = "<group>";
@@ -243,7 +243,7 @@
 				7BC14013226093C80087CF28 /* DataItem.swift in Sources */,
 				7BC1401F226094E70087CF28 /* MVVMCListViewController.swift in Sources */,
 				7BC13FFB22603D260087CF28 /* MVVM_AuthModel.swift in Sources */,
-				7BC14021226095490087CF28 /* MVVMCItemTableViewCell.swift in Sources */,
+				7BA704CA22685B36008F5EF4 /* MVVMCItemTableViewCell.swift in Sources */,
 				7BC13FFF2260726E0087CF28 /* ViewController.swift in Sources */,
 				7BC13FF522602B920087CF28 /* AuthViewModel.swift in Sources */,
 				7BC13FF922602FCC0087CF28 /* MVVM_AuthViewModel.swift in Sources */,

@@ -25,8 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let viewModel =  MVVM_AuthViewModel()
             viewModel.model = MVVM_AuthModel()
             //viewModel.coordinatorDelegate = self
+            let nav = UINavigationController.init(rootViewController: vc)
             vc.viewModel = viewModel
-            window?.rootViewController = vc
+            window?.rootViewController = nav
         }
     }
     func applicationWillResignActive(_ application: UIApplication) {

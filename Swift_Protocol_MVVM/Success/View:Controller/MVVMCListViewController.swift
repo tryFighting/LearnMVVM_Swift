@@ -34,11 +34,20 @@ class MVVMCListViewController: UITableViewController {
     
     override func viewDidLoad()
     {
+        let label: UILabel
+        
         super.viewDidLoad()
         tableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
         
         isLoaded = true
-        refreshDisplay();
+        
+        
+        //refreshDisplay();
+        label = UILabel(frame: CGRect(x: 100, y: 0, width: 200, height: 30))
+        label.backgroundColor = UIColor.white
+        label.textColor = UIColor.red
+        label.text = "登录成功"
+        view.addSubview(label)
     }
     
 }
@@ -60,7 +69,7 @@ extension MVVMCListViewController
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! MVVMCItemTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell") as! MVVMCItemTableViewCell
         cell.item = viewModel?.itemAtIndex((indexPath as NSIndexPath).row)
         return cell
     }
